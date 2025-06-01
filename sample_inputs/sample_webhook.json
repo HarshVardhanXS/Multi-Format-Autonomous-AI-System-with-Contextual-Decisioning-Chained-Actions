@@ -1,0 +1,8 @@
+{
+  "event_type": "user_signup",
+  "timestamp": "2025-06-01T10:00:00Z",
+  "user_id": 12345,
+  "payload": {
+    "email": "test@example.com"
+  }
+}

@@ -1,0 +1,207 @@
+[
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T05:27:28.892224",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T05:28:19.544808",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "sample_inputs/complaint_email.txt",
+        "timestamp": "2025-06-01T06:12:21.613688",
+        "sender": "unknown",
+        "urgency": "low",
+        "tone": "angry",
+        "action_taken": "log_and_close"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T06:32:25.832559",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T06:35:56.617673",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T06:37:42.299792",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T06:43:51.489585",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T06:43:51.662738",
+        "sender": "unknown",
+        "urgency": "low",
+        "tone": "angry",
+        "action_taken": "POST /crm/escalate"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T07:00:00.310133",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T07:00:00.497699",
+        "sender": "unknown",
+        "urgency": "low",
+        "tone": "angry",
+        "action_taken": "POST /crm/escalate"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T07:05:20.550862",
+        "format": "Email",
+        "intent": "Complaint",
+        "route_to": "email_agent"
+    },
+    {
+        "source": "complaint_email.txt",
+        "timestamp": "2025-06-01T07:05:20.708472",
+        "sender": "unknown",
+        "urgency": "low",
+        "tone": "angry",
+        "action_taken": "POST /crm/escalate"
+    },
+    {
+        "source": "sample_webhook.json",
+        "timestamp": "2025-06-01T07:17:08.806229",
+        "format": "JSON",
+        "intent": "Complaint",
+        "route_to": "json_agent"
+    },
+    {
+        "source": "sample_webhook.json",
+        "timestamp": "2025-06-01T07:17:08.810142",
+        "status": "valid",
+        "anomalies": [],
+        "data": {
+            "event_type": "user_signup",
+            "timestamp": "2025-06-01T10:00:00Z",
+            "user_id": 12345,
+            "payload": {
+                "email": "test@example.com"
+            }
+        }
+    },
+    {
+        "source": "sample_webhook.json",
+        "timestamp": "2025-06-01T07:17:32.852929",
+        "format": "JSON",
+        "intent": "Complaint",
+        "route_to": "json_agent"
+    },
+    {
+        "source": "sample_webhook.json",
+        "timestamp": "2025-06-01T07:17:32.857186",
+        "status": "valid",
+        "anomalies": [],
+        "data": {
+            "event_type": "user_signup",
+            "timestamp": "2025-06-01T10:00:00Z",
+            "user_id": 12345,
+            "payload": {
+                "email": "test@example.com"
+            }
+        }
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:30:20.287110",
+        "format": "PDF",
+        "intent": "RFQ",
+        "route_to": "pdf_agent"
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:48:31.695967",
+        "format": "PDF",
+        "intent": "RFQ",
+        "route_to": "pdf_agent"
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:48:31.719673",
+        "status": "valid",
+        "anomalies": [],
+        "data": {
+            "total_amount": 0.0,
+            "sensitive_terms": [],
+            "text_snippet": "INVOICE\nInvoice Date: 2025-06-01\nInvoice Number: INV-1001\nItem Description Qty Unit Price Total\n---------------------------------------------------------\nHigh-End Monitor 2 3500.00 7000.00\nGraphics Workstation 1 4500.00 4500.00\nTotal Amount: 11,500.00\nThank you for your business. Please contact us i..."
+        }
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:53:29.232324",
+        "format": "PDF",
+        "intent": "RFQ",
+        "route_to": "pdf_agent"
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:53:29.248625",
+        "status": "valid",
+        "anomalies": [],
+        "data": {
+            "total_amount": 0.0,
+            "sensitive_terms": [],
+            "text_snippet": "INVOICE\nInvoice Date: 2025-06-01\nInvoice Number: INV-1001\nItem Description Qty Unit Price Total\n---------------------------------------------------------\nHigh-End Monitor 2 3500.00 7000.00\nGraphics Workstation 1 4500.00 4500.00\nTotal Amount: 11,500.00\nThank you for your business. Please contact us i..."
+        }
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:57:17.887072",
+        "format": "PDF",
+        "intent": "RFQ",
+        "route_to": "pdf_agent"
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T09:57:17.942766",
+        "status": "valid",
+        "anomalies": [],
+        "data": {
+            "total_amount": 0.0,
+            "sensitive_terms": [],
+            "text_snippet": "INVOICE\nInvoice Date: 2025-06-01\nInvoice Number: INV-1001\nItem Description Qty Unit Price Total\n---------------------------------------------------------\nHigh-End Monitor 2 3500.00 7000.00\nGraphics Workstation 1 4500.00 4500.00\nTotal Amount: 11,500.00\nThank you for your business. Please contact us i..."
+        }
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T10:05:32.862680",
+        "format": "PDF",
+        "intent": "RFQ",
+        "route_to": "pdf_agent"
+    },
+    {
+        "source": "sample_invoice.pdf",
+        "timestamp": "2025-06-01T10:30:24.137184",
+        "format": "PDF",
+        "intent": "RFQ",
+        "route_to": "pdf_agent"
+    }
+]
